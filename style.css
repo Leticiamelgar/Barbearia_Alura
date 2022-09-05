@@ -13,6 +13,7 @@ header{
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 nav {
@@ -60,7 +61,7 @@ nav a:hover {
 
 .principal{
     padding: 3em 0;
-    background-color: #fefefe;
+    background-color:#e3dbdb;
 }
 
 .principal p{
@@ -81,7 +82,9 @@ nav a:hover {
     margin: 0 20px 0 20px;
 }
 
-
+.mapa{
+    background: #e3dbdb;
+}
 .mapa h3{
     text-align: center;
     font-weight: bold;
@@ -98,6 +101,7 @@ nav a:hover {
 .beneficios{
     height: auto;
     padding: 3em 0;
+    background:linear-gradient(#e3dbdb,#b1b1b1);
 }
 
 .beneficios h3
@@ -156,8 +160,15 @@ nav a:hover {
     border-radius: 50px;
 }
 
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
 .produtos li:hover {
     border-color: #c78c19;
+    scale: 1.05;
 }
 
 
@@ -166,14 +177,8 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-    font-size: 34px;
-}
-
-.produtos h2 {
     font-size: 30px;
-    font-weight: bold;
 }
-
 
 
 .produto-descricao {
@@ -251,6 +256,4 @@ footer {
     margin: 20px;
 }
 
-
-
-
+/*Rodapé */
